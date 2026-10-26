@@ -1,0 +1,581 @@
+<!DOCTYPE html>
+
+<html class="dark" lang="vi"><head><meta charset="utf-8"/><meta content="width=device-width, initial-scale=1.0" name="viewport"/><meta content="web_standard" name="shell-type"/><link href="https://fonts.googleapis.com" rel="preconnect"/><link crossorigin="" href="https://fonts.gstatic.com" rel="preconnect"/><link href="https://fonts.googleapis.com/css2?family=Be+Vietnam+Pro:wght@400;500;600;700&amp;family=Inter:wght@400;500;600;700&amp;display=swap" rel="stylesheet"/><link href="https://fonts.googleapis.com/css2?family=Material+Symbols+Outlined:opsz,wght,FILL,GRAD@20..48,100..700,0..1,-50..200" rel="stylesheet"/>
+<link href="https://fonts.googleapis.com/css2?family=Material+Symbols+Outlined:wght,FILL@100..700,0..1&amp;display=swap" rel="stylesheet"/><style>@layer base{html,body{margin:0;padding:0;}body{overscroll-behavior:none;}main>:first-child{margin-top:0!important;}main>:last-child{margin-bottom:0!important;}}::-webkit-scrollbar{display:none;}</style><script src="https://cdn.tailwindcss.com"></script><script id="tailwind-config">tailwind.config = { darkMode: "class", theme: { extend: { "colors": { "inverse-on-surface": "#1b314c", "secondary": "#aec9eb", "primary-container": "#d9ae55", "primary": "#f7c96d", "on-tertiary-fixed-variant": "#564420", "on-secondary-fixed": "#001d35", "inverse-surface": "#d3e4ff", "on-error-container": "#ffdad6", "error": "#ffb4ab", "primary-fixed-dim": "#edc065", "outline": "#9a8f7e", "on-error": "#690005", "secondary-fixed": "#d1e4ff", "tertiary-fixed": "#fbdfae", "inverse-primary": "#7a5900", "surface-container-low": "#031c36", "tertiary": "#e7cc9d", "surface-tint": "#edc065", "on-secondary": "#15324e", "error-container": "#93000a", "outline-variant": "#4e4637", "on-primary": "#402d00", "surface-container-highest": "#203650", "on-background": "#d3e4ff", "on-tertiary-container": "#55431f", "secondary-container": "#304b68", "tertiary-container": "#cab183", "surface": "#00142a", "surface-container-lowest": "#000f21", "surface-dim": "#00142a", "on-tertiary": "#3e2e0c", "on-tertiary-fixed": "#261900", "surface-variant": "#203650", "on-secondary-container": "#a0bbdd", "surface-bright": "#243a55", "surface-container": "#07203a", "on-primary-fixed-variant": "#5c4200", "primary-fixed": "#ffdea2", "secondary-fixed-dim": "#aec9eb", "tertiary-fixed-dim": "#dec394", "on-primary-container": "#5b4200", "surface-container-high": "#142b45", "on-primary-fixed": "#261900", "on-secondary-fixed-variant": "#2e4965", "on-surface": "#d3e4ff", "background": "#00142a", "on-surface-variant": "#d1c5b2" }, "borderRadius": { "DEFAULT": "0.25rem", "lg": "0.5rem", "xl": "0.75rem", "full": "9999px" }, "spacing": { "margin-sm": "1rem", "space-md": "1rem", "gutter-sm": "1rem", "gutter-lg": "2rem", "space-sm": "0.5rem", "space-xl": "2.5rem", "space-xs": "0.25rem", "space-lg": "1.5rem", "gutter": "1.5rem", "margin": "2rem", "margin-lg": "4rem" }, "fontFamily": { "headline-md": ["Be Vietnam Pro"], "label-sm": ["Be Vietnam Pro"], "body-sm": ["Inter"], "caption": ["Inter"], "body-md": ["Inter"], "body-lg": ["Inter"], "overline": ["Be Vietnam Pro"], "headline-lg": ["Be Vietnam Pro"], "headline-sm": ["Be Vietnam Pro"], "headline-lg-mobile": ["Be Vietnam Pro"], "headline-xl": ["Be Vietnam Pro"], "headline-xl-mobile": ["Be Vietnam Pro"], "label-md": ["Be Vietnam Pro"] }, "fontSize": { "headline-md": ["22px", { "lineHeight": "30px", "letterSpacing": "-0.01em", "fontWeight": "600" }], "label-sm": ["12px", { "lineHeight": "16px", "letterSpacing": "0.03em", "fontWeight": "500" }], "body-sm": ["14px", { "lineHeight": "20px", "letterSpacing": "0em", "fontWeight": "400" }], "caption": ["13px", { "lineHeight": "18px", "letterSpacing": "0.01em", "fontWeight": "400" }], "body-md": ["15px", { "lineHeight": "22px", "letterSpacing": "0em", "fontWeight": "400" }], "body-lg": ["16px", { "lineHeight": "24px", "letterSpacing": "0em", "fontWeight": "400" }], "overline": ["11px", { "lineHeight": "14px", "letterSpacing": "0.08em", "fontWeight": "700" }], "headline-lg": ["32px", { "lineHeight": "40px", "letterSpacing": "-0.015em", "fontWeight": "700" }], "headline-sm": ["18px", { "lineHeight": "26px", "letterSpacing": "0em", "fontWeight": "600" }], "headline-lg-mobile": ["26px", { "lineHeight": "34px", "letterSpacing": "-0.01em", "fontWeight": "700" }], "headline-xl": ["44px", { "lineHeight": "52px", "letterSpacing": "-0.02em", "fontWeight": "700" }], "headline-xl-mobile": ["32px", { "lineHeight": "40px", "letterSpacing": "-0.015em", "fontWeight": "700" }], "label-md": ["14px", { "lineHeight": "18px", "letterSpacing": "0.02em", "fontWeight": "600" }] } } } };</script></head><body class="bg-background font-body-md text-on-surface antialiased"><header class="fixed top-0 left-0 right-0 w-full z-50 bg-surface/85 backdrop-blur-xl shadow-[0_1px_8px_rgba(0,0,0,0.4)]"><div class="h-20 w-full px-margin-lg flex items-center justify-between gap-space-md"><div class="flex items-center gap-space-lg shrink-0"><a class="flex items-center gap-space-sm group" data-path="trang-chu" href="#"><img alt="NOVA CINEMA Logo" class="h-8 w-auto object-contain" src="https://lh3.googleusercontent.com/aida/AEtjO1WHiBk6pJ_Wx_sgRvTQn63py5rEeDSRkg8qwocy93KnfiT5x4Ls_xm2rm13PqlLeIdtnZWIVMP4QqG590As3LNjbNUomgGBewuD77MXyHbQLCDSXW11DEWP_0uEePcUNZj-zt8U_zazOC7cMLPGFUSAdNR4oR9HO_xwiZHdOJ8uvlqZ16dWggE7RLlk6-1qvE900vGBWfX-Kwww-ArI0AJe3MDyD0IIY7fy6XEg_w_tI_feDAh9_9RwJx8"/><div class="flex flex-col"><span class="font-headline-sm text-headline-sm uppercase tracking-wider text-primary group-hover:text-primary-fixed transition-colors">NOVA CINEMA</span><span class="font-overline text-overline uppercase text-secondary tracking-widest">Luxury Experience</span></div></a></div><nav class="hidden xl:flex items-center gap-space-lg" data-active-classes="text-primary font-label-md font-semibold relative after:content-[''] after:absolute after:-bottom-1 after:left-0 after:right-0 after:h-0.5 after:bg-primary"><a class="font-label-md text-label-md text-on-surface-variant hover:text-on-surface transition-colors py-space-xs" data-path="trang-chu" href="#">Trang chủ</a><a class="font-label-md text-label-md text-on-surface-variant hover:text-on-surface transition-colors py-space-xs" data-path="danh-sach-phim" href="#">Phim</a><a class="font-label-md text-label-md text-on-surface-variant hover:text-on-surface transition-colors py-space-xs" data-path="lich-chieu" href="#">Lịch chiếu</a><a class="font-label-md text-label-md text-on-surface-variant hover:text-on-surface transition-colors py-space-xs" data-path="gia-ve-uu-dai" href="#">Giá vé &amp; Ưu đãi</a><a class="font-label-md text-label-md text-on-surface-variant hover:text-on-surface transition-colors py-space-xs" data-path="gioi-thieu" href="#">Giới thiệu</a><a class="font-label-md text-label-md text-on-surface-variant hover:text-on-surface transition-colors py-space-xs" data-path="lien-he" href="#">Liên hệ</a></nav><div class="flex items-center gap-space-md shrink-0"><button class="flex items-center justify-center w-10 h-10 rounded-full bg-surface-container-high text-on-surface-variant hover:text-primary hover:bg-surface-container-highest transition-all" title="Tìm kiếm phim" type="button"><span class="material-symbols-outlined text-[20px]">search</span></button><button class="relative flex items-center justify-center w-10 h-10 rounded-full bg-surface-container-high text-on-surface-variant hover:text-primary hover:bg-surface-container-highest transition-all" title="Thông báo" type="button"><span class="material-symbols-outlined text-[20px]">notifications</span><span class="absolute top-2 right-2 w-2 h-2 rounded-full bg-primary"></span></button><div class="hidden sm:flex items-center gap-space-xs px-space-sm py-1 rounded-full bg-surface-container-high"><span class="material-symbols-outlined text-primary text-[18px]">workspace_premium</span><span class="font-label-sm text-label-sm uppercase text-primary font-semibold">Gold Tier</span></div><a class="hidden lg:flex items-center gap-space-xs px-space-sm py-1.5 rounded-full bg-secondary-container hover:bg-secondary-container/80 text-on-secondary-container transition-all" data-path="quan-tri-lich-chieu" href="#"><span class="material-symbols-outlined text-[16px]">admin_panel_settings</span><span class="font-label-sm text-label-sm">Quản trị Admin</span></a><div class="relative group py-2"><button class="flex items-center gap-space-xs focus:outline-none" type="button"><img alt="Profile" class="w-8 h-8 rounded-full object-cover ring-1 ring-primary/40 group-hover:ring-primary transition-all" src="https://lh3.googleusercontent.com/aida-public/AB6AXuBPh1KUPgLVM55JAiOxIapm6i6rkP_lwGY_n8Z6LoUP24JuLh6R8BOGcqk9a1Fr-cbLq2N-wkOcwLXOXM8gv4YNC7e2n3v_KD-jCP38UkYQXK3MYrZWOVZ-iJ1I9o6xBbnYLPzKhkHcoqlwA0bZiTm4PFP2bjwJGheK1UPgUPDHtkm_FslmjROPZtcG8pLM697Da5f7QAhUJijwK8kFHB79hoNR2BtEaQ50tv3zoAjiFFXtbolVHgR3"/><span class="material-symbols-outlined text-on-surface-variant text-[18px] group-hover:text-on-surface transition-colors">expand_more</span></button><div class="absolute right-0 top-full hidden group-hover:block w-56 pt-2 z-50"><div class="bg-surface-container-high rounded-xl p-space-xs shadow-[0_12px_32px_rgba(0,0,0,0.7)] backdrop-blur-xl"><div class="px-space-sm py-space-xs"><p class="font-label-md text-label-md text-on-surface font-semibold">Alexandre Nguyen</p><p class="font-caption text-caption text-on-surface-variant">VIP Gold Member</p></div><div class="h-px bg-surface-container-highest my-1"></div><a class="flex items-center gap-space-sm px-space-sm py-2 rounded-lg font-body-sm text-body-sm text-on-surface-variant hover:text-on-surface hover:bg-surface-container-highest transition-colors" data-path="thong-tin-ca-nhan" href="#"><span class="material-symbols-outlined text-[18px]">person</span><span>Thông tin cá nhân</span></a><a class="flex items-center justify-between px-space-sm py-2 rounded-lg font-body-sm text-body-sm text-on-surface-variant hover:text-on-surface hover:bg-surface-container-highest transition-colors" data-path="ve-cua-toi" href="#"><span class="flex items-center gap-space-sm"><span class="material-symbols-outlined text-[18px]">confirmation_number</span><span>Vé của tôi</span></span><span class="font-label-sm text-label-sm px-1.5 py-0.5 rounded-full bg-primary-container text-on-primary-container font-semibold">2</span></a><a class="flex items-center gap-space-sm px-space-sm py-2 rounded-lg font-body-sm text-body-sm text-on-surface-variant hover:text-on-surface hover:bg-surface-container-highest transition-colors" data-path="quan-tri-lich-chieu" href="#"><span class="material-symbols-outlined text-[18px]">dashboard</span><span>Quản trị Admin</span></a><div class="h-px bg-surface-container-highest my-1"></div><a class="flex items-center gap-space-sm px-space-sm py-2 rounded-lg font-body-sm text-body-sm text-error hover:text-on-surface hover:bg-error-container/40 transition-colors" data-path="dang-nhap" href="#"><span class="material-symbols-outlined text-[18px]">logout</span><span>Đăng xuất</span></a></div></div></div></div></div></header><main class="w-full pt-20 bg-background min-h-screen"><div class="flex flex-col w-full">
+<!-- Subtle Ambient Glow -->
+<div class="relative w-full overflow-hidden">
+<div class="absolute top-0 left-1/2 -translate-x-1/2 w-[900px] h-48 bg-primary/10 rounded-full blur-[140px] pointer-events-none"></div>
+<!-- Navigation Breadcrumb & Countdown Header Bar -->
+<div class="w-full px-margin-lg py-space-sm bg-surface-container-low/60 backdrop-blur-md">
+<div class="max-w-[1720px] mx-auto flex flex-wrap items-center justify-between gap-space-md">
+<!-- Breadcrumb & Theater Metadata -->
+<div class="flex items-center gap-space-md">
+<a class="flex items-center gap-space-xs font-label-md text-label-md text-on-surface-variant hover:text-primary transition-colors" data-path="lich-chieu" href="#">
+<span class="material-symbols-outlined text-[18px]">arrow_back</span>
+<span>Chọn suất chiếu khác</span>
+</a>
+<span class="w-1 h-1 rounded-full bg-outline-variant"></span>
+<div class="flex items-center gap-space-xs text-secondary font-label-sm text-label-sm">
+<span class="material-symbols-outlined text-primary text-[18px]">location_on</span>
+<span class="text-on-surface font-semibold">NOVA Landmark 81</span>
+<span class="text-outline-variant">•</span>
+<span class="text-primary font-semibold">Auditorium IMAX 01</span>
+<span class="text-outline-variant">•</span>
+<span class="text-on-surface-variant">Thứ Bảy, 26/10/2024</span>
+<span class="text-outline-variant">•</span>
+<span class="px-2 py-0.5 rounded-full bg-secondary-container text-on-secondary-container font-medium">19:30 - 22:15</span>
+</div>
+</div>
+<!-- Realtime Reservation Timer -->
+<div class="flex items-center gap-space-md bg-surface-container-high px-space-md py-1.5 rounded-full shadow-md">
+<div class="flex items-center gap-space-xs text-primary animate-pulse">
+<span class="material-symbols-outlined text-[20px]">timer</span>
+<span class="font-overline text-overline uppercase tracking-wider text-secondary">Thời gian giữ vé:</span>
+</div>
+<span class="font-headline-sm text-headline-sm font-bold text-primary tracking-wider tabular-nums" id="seat-timer">08:45</span>
+<span class="font-caption text-caption text-on-surface-variant hidden lg:inline">ghế sẽ tự động mở lại sau khi hết giờ</span>
+</div>
+</div>
+</div>
+<!-- Main Booking Workspace (Desktop 7:3 split layout) -->
+<div class="w-full px-margin-lg py-space-lg">
+<div class="max-w-[1720px] mx-auto grid grid-cols-1 xl:grid-cols-12 gap-gutter-lg items-start">
+<!-- Left Column: Auditorium Interactive Seatmap (Approx 70% / col-span-8) -->
+<div class="xl:col-span-8 flex flex-col gap-space-lg bg-surface-container-low rounded-xl p-space-lg shadow-xl">
+<!-- Screen Arc Projection Area -->
+<div class="flex flex-col items-center justify-center pt-space-xs pb-space-sm relative select-none">
+<!-- Screen glow gradient -->
+<div class="w-4/5 max-w-[680px] h-20 bg-gradient-to-b from-primary/25 via-primary/5 to-transparent blur-xl pointer-events-none rounded-t-full"></div>
+<!-- Architectural Curved Screen Bar -->
+<div class="relative w-4/5 max-w-[700px] flex flex-col items-center -mt-10">
+<svg class="w-full text-primary drop-shadow-[0_0_18px_rgba(247,201,109,0.55)]" fill="none" viewbox="0 0 700 48" xmlns="http://www.w3.org/2000/svg">
+<path d="M 20 42 Q 350 4 680 42" stroke="currentColor" stroke-linecap="round" stroke-width="5"></path>
+<path d="M 24 45 Q 350 8 676 45" opacity="0.4" stroke="currentColor" stroke-linecap="round" stroke-width="1.5"></path>
+</svg>
+<div class="flex items-center gap-space-xs -mt-1 text-primary tracking-[0.25em] font-overline text-overline font-bold uppercase">
+<span class="material-symbols-outlined text-[14px]">theaters</span>
+<span>MÀN HÌNH CHIẾU IMAX LASER / SCREEN</span>
+<span class="material-symbols-outlined text-[14px]">theaters</span>
+</div>
+</div>
+<!-- Sound Field Spatial Indicators -->
+<div class="w-full flex justify-between px-space-lg text-outline font-overline text-overline mt-2">
+<span class="flex items-center gap-1"><span class="material-symbols-outlined text-[14px]">surround_sound</span> DOLBY ATMOS TRÁI</span>
+<span class="text-secondary font-medium">KHOẢNG CÁCH TỐI ƯU CHO TẦM NHÌN (HÀNG E - H)</span>
+<span class="flex items-center gap-1">DOLBY ATMOS PHẢI <span class="material-symbols-outlined text-[14px]">surround_sound</span></span>
+</div>
+</div>
+<!-- Seating Status Legend -->
+<div class="flex flex-wrap items-center justify-center gap-space-lg py-space-sm px-space-md bg-surface-container rounded-lg">
+<div class="flex items-center gap-space-xs">
+<div class="w-5 h-4.5 rounded-sm bg-surface-container-high ring-1 ring-outline-variant flex items-center justify-center"></div>
+<span class="font-caption text-caption text-on-surface-variant">Ghế thường (120k)</span>
+</div>
+<div class="flex items-center gap-space-xs">
+<div class="w-5 h-4.5 rounded-sm bg-secondary-container ring-1 ring-primary flex items-center justify-center"></div>
+<span class="font-caption text-caption text-on-surface">Ghế VIP (150k)</span>
+</div>
+<div class="flex items-center gap-space-xs">
+<div class="w-9 h-4.5 rounded-full bg-error-container/80 ring-1 ring-primary flex items-center justify-center"></div>
+<span class="font-caption text-caption text-on-surface">Sweetbox đôi (280k)</span>
+</div>
+<div class="flex items-center gap-space-xs">
+<div class="w-5 h-4.5 rounded-sm bg-primary text-on-primary flex items-center justify-center font-bold text-[10px]">
+<span class="material-symbols-outlined text-[12px] leading-none">check</span>
+</div>
+<span class="font-caption text-caption text-primary font-semibold">Đang chọn</span>
+</div>
+<div class="flex items-center gap-space-xs">
+<div class="w-5 h-4.5 rounded-sm bg-surface-container-highest text-outline flex items-center justify-center opacity-70">
+<span class="material-symbols-outlined text-[12px] leading-none">close</span>
+</div>
+<span class="font-caption text-caption text-on-surface-variant">Đã bán</span>
+</div>
+<div class="flex items-center gap-space-xs">
+<div class="w-5 h-4.5 rounded-sm bg-surface-container-high ring-1 ring-dashed ring-tertiary flex items-center justify-center text-tertiary">
+<span class="material-symbols-outlined text-[11px] leading-none">hourglass_empty</span>
+</div>
+<span class="font-caption text-caption text-tertiary">Đang giữ chỗ</span>
+</div>
+</div>
+<!-- Interactive Auditorium Grid Container -->
+<div class="overflow-x-auto pb-space-sm pt-space-xs">
+<div class="min-w-[720px] flex flex-col gap-space-sm items-center justify-center">
+<!-- Rows A to D: Standard Seats (120.000đ) -->
+<!-- ROW A -->
+<div class="flex items-center gap-space-sm">
+<span class="w-6 text-center font-label-md text-label-md text-on-surface-variant font-bold">A</span>
+<div class="flex items-center gap-1.5">
+<!-- A01-A04 -->
+<button class="w-6 h-5.5 rounded-t-sm bg-surface-container-highest text-outline flex items-center justify-center opacity-60 cursor-not-allowed" title="A01 (Đã bán)" type="button"><span class="material-symbols-outlined text-[11px]">close</span></button>
+<button class="w-6 h-5.5 rounded-t-sm bg-surface-container-highest text-outline flex items-center justify-center opacity-60 cursor-not-allowed" title="A02 (Đã bán)" type="button"><span class="material-symbols-outlined text-[11px]">close</span></button>
+<button class="w-6 h-5.5 rounded-t-sm bg-surface-container-high hover:bg-secondary-container transition-colors ring-1 ring-outline/30 flex items-center justify-center text-[10px] font-medium text-secondary" title="A03 - Thường (120.000đ)" type="button">3</button>
+<button class="w-6 h-5.5 rounded-t-sm bg-surface-container-high hover:bg-secondary-container transition-colors ring-1 ring-outline/30 flex items-center justify-center text-[10px] font-medium text-secondary" title="A04 - Thường (120.000đ)" type="button">4</button>
+</div>
+<div class="w-6"></div><!-- Gangway aisle -->
+<div class="flex items-center gap-1.5">
+<!-- A05-A10 -->
+<button class="w-6 h-5.5 rounded-t-sm bg-surface-container-high hover:bg-secondary-container transition-colors ring-1 ring-outline/30 flex items-center justify-center text-[10px] font-medium text-secondary" title="A05 - Thường (120.000đ)" type="button">5</button>
+<button class="w-6 h-5.5 rounded-t-sm bg-surface-container-high hover:bg-secondary-container transition-colors ring-1 ring-outline/30 flex items-center justify-center text-[10px] font-medium text-secondary" title="A06 - Thường (120.000đ)" type="button">6</button>
+<button class="w-6 h-5.5 rounded-t-sm bg-surface-container-high hover:bg-secondary-container transition-colors ring-1 ring-outline/30 flex items-center justify-center text-[10px] font-medium text-secondary" title="A07 - Thường (120.000đ)" type="button">7</button>
+<button class="w-6 h-5.5 rounded-t-sm bg-surface-container-high hover:bg-secondary-container transition-colors ring-1 ring-outline/30 flex items-center justify-center text-[10px] font-medium text-secondary" title="A08 - Thường (120.000đ)" type="button">8</button>
+<button class="w-6 h-5.5 rounded-t-sm bg-surface-container-high hover:bg-secondary-container transition-colors ring-1 ring-outline/30 flex items-center justify-center text-[10px] font-medium text-secondary" title="A09 - Thường (120.000đ)" type="button">9</button>
+<button class="w-6 h-5.5 rounded-t-sm bg-surface-container-high hover:bg-secondary-container transition-colors ring-1 ring-outline/30 flex items-center justify-center text-[10px] font-medium text-secondary" title="A10 - Thường (120.000đ)" type="button">10</button>
+</div>
+<div class="w-6"></div><!-- Gangway aisle -->
+<div class="flex items-center gap-1.5">
+<!-- A11-A14 -->
+<button class="w-6 h-5.5 rounded-t-sm bg-surface-container-high hover:bg-secondary-container transition-colors ring-1 ring-outline/30 flex items-center justify-center text-[10px] font-medium text-secondary" title="A11 - Thường (120.000đ)" type="button">11</button>
+<button class="w-6 h-5.5 rounded-t-sm bg-surface-container-high hover:bg-secondary-container transition-colors ring-1 ring-outline/30 flex items-center justify-center text-[10px] font-medium text-secondary" title="A12 - Thường (120.000đ)" type="button">12</button>
+<button class="w-6 h-5.5 rounded-t-sm bg-surface-container-highest text-outline flex items-center justify-center opacity-60 cursor-not-allowed" title="A13 (Đã bán)" type="button"><span class="material-symbols-outlined text-[11px]">close</span></button>
+<button class="w-6 h-5.5 rounded-t-sm bg-surface-container-highest text-outline flex items-center justify-center opacity-60 cursor-not-allowed" title="A14 (Đã bán)" type="button"><span class="material-symbols-outlined text-[11px]">close</span></button>
+</div>
+<span class="w-6 text-center font-label-md text-label-md text-on-surface-variant font-bold">A</span>
+</div>
+<!-- ROW B -->
+<div class="flex items-center gap-space-sm">
+<span class="w-6 text-center font-label-md text-label-md text-on-surface-variant font-bold">B</span>
+<div class="flex items-center gap-1.5">
+<button class="w-6 h-5.5 rounded-t-sm bg-surface-container-high hover:bg-secondary-container transition-colors ring-1 ring-outline/30 flex items-center justify-center text-[10px] font-medium text-secondary" type="button">1</button>
+<button class="w-6 h-5.5 rounded-t-sm bg-surface-container-high hover:bg-secondary-container transition-colors ring-1 ring-outline/30 flex items-center justify-center text-[10px] font-medium text-secondary" type="button">2</button>
+<button class="w-6 h-5.5 rounded-t-sm bg-surface-container-high hover:bg-secondary-container transition-colors ring-1 ring-outline/30 flex items-center justify-center text-[10px] font-medium text-secondary" type="button">3</button>
+<button class="w-6 h-5.5 rounded-t-sm bg-surface-container-high hover:bg-secondary-container transition-colors ring-1 ring-outline/30 flex items-center justify-center text-[10px] font-medium text-secondary" type="button">4</button>
+</div>
+<div class="w-6"></div>
+<div class="flex items-center gap-1.5">
+<button class="w-6 h-5.5 rounded-t-sm bg-surface-container-high hover:bg-secondary-container transition-colors ring-1 ring-outline/30 flex items-center justify-center text-[10px] font-medium text-secondary" type="button">5</button>
+<button class="w-6 h-5.5 rounded-t-sm bg-surface-container-high hover:bg-secondary-container transition-colors ring-1 ring-outline/30 flex items-center justify-center text-[10px] font-medium text-secondary" type="button">6</button>
+<button class="w-6 h-5.5 rounded-t-sm bg-surface-container-high hover:bg-secondary-container transition-colors ring-1 ring-outline/30 flex items-center justify-center text-[10px] font-medium text-secondary" type="button">7</button>
+<button class="w-6 h-5.5 rounded-t-sm bg-surface-container-high hover:bg-secondary-container transition-colors ring-1 ring-outline/30 flex items-center justify-center text-[10px] font-medium text-secondary" type="button">8</button>
+<button class="w-6 h-5.5 rounded-t-sm bg-surface-container-high hover:bg-secondary-container transition-colors ring-1 ring-outline/30 flex items-center justify-center text-[10px] font-medium text-secondary" type="button">9</button>
+<button class="w-6 h-5.5 rounded-t-sm bg-surface-container-high hover:bg-secondary-container transition-colors ring-1 ring-outline/30 flex items-center justify-center text-[10px] font-medium text-secondary" type="button">10</button>
+</div>
+<div class="w-6"></div>
+<div class="flex items-center gap-1.5">
+<button class="w-6 h-5.5 rounded-t-sm bg-surface-container-high hover:bg-secondary-container transition-colors ring-1 ring-outline/30 flex items-center justify-center text-[10px] font-medium text-secondary" type="button">11</button>
+<button class="w-6 h-5.5 rounded-t-sm bg-surface-container-high hover:bg-secondary-container transition-colors ring-1 ring-outline/30 flex items-center justify-center text-[10px] font-medium text-secondary" type="button">12</button>
+<button class="w-6 h-5.5 rounded-t-sm bg-surface-container-high hover:bg-secondary-container transition-colors ring-1 ring-outline/30 flex items-center justify-center text-[10px] font-medium text-secondary" type="button">13</button>
+<button class="w-6 h-5.5 rounded-t-sm bg-surface-container-high hover:bg-secondary-container transition-colors ring-1 ring-outline/30 flex items-center justify-center text-[10px] font-medium text-secondary" type="button">14</button>
+</div>
+<span class="w-6 text-center font-label-md text-label-md text-on-surface-variant font-bold">B</span>
+</div>
+<!-- ROW C -->
+<div class="flex items-center gap-space-sm">
+<span class="w-6 text-center font-label-md text-label-md text-on-surface-variant font-bold">C</span>
+<div class="flex items-center gap-1.5">
+<button class="w-6 h-5.5 rounded-t-sm bg-surface-container-high hover:bg-secondary-container transition-colors ring-1 ring-outline/30 flex items-center justify-center text-[10px] font-medium text-secondary" type="button">1</button>
+<button class="w-6 h-5.5 rounded-t-sm bg-surface-container-high hover:bg-secondary-container transition-colors ring-1 ring-outline/30 flex items-center justify-center text-[10px] font-medium text-secondary" type="button">2</button>
+<button class="w-6 h-5.5 rounded-t-sm bg-surface-container-highest text-outline flex items-center justify-center opacity-60 cursor-not-allowed" type="button"><span class="material-symbols-outlined text-[11px]">close</span></button>
+<button class="w-6 h-5.5 rounded-t-sm bg-surface-container-highest text-outline flex items-center justify-center opacity-60 cursor-not-allowed" type="button"><span class="material-symbols-outlined text-[11px]">close</span></button>
+</div>
+<div class="w-6"></div>
+<div class="flex items-center gap-1.5">
+<button class="w-6 h-5.5 rounded-t-sm bg-surface-container-high hover:bg-secondary-container transition-colors ring-1 ring-outline/30 flex items-center justify-center text-[10px] font-medium text-secondary" type="button">5</button>
+<button class="w-6 h-5.5 rounded-t-sm bg-surface-container-high hover:bg-secondary-container transition-colors ring-1 ring-outline/30 flex items-center justify-center text-[10px] font-medium text-secondary" type="button">6</button>
+<button class="w-6 h-5.5 rounded-t-sm bg-surface-container-high hover:bg-secondary-container transition-colors ring-1 ring-outline/30 flex items-center justify-center text-[10px] font-medium text-secondary" type="button">7</button>
+<button class="w-6 h-5.5 rounded-t-sm bg-surface-container-high hover:bg-secondary-container transition-colors ring-1 ring-outline/30 flex items-center justify-center text-[10px] font-medium text-secondary" type="button">8</button>
+<button class="w-6 h-5.5 rounded-t-sm bg-surface-container-high hover:bg-secondary-container transition-colors ring-1 ring-outline/30 flex items-center justify-center text-[10px] font-medium text-secondary" type="button">9</button>
+<button class="w-6 h-5.5 rounded-t-sm bg-surface-container-high hover:bg-secondary-container transition-colors ring-1 ring-outline/30 flex items-center justify-center text-[10px] font-medium text-secondary" type="button">10</button>
+</div>
+<div class="w-6"></div>
+<div class="flex items-center gap-1.5">
+<button class="w-6 h-5.5 rounded-t-sm bg-surface-container-high hover:bg-secondary-container transition-colors ring-1 ring-outline/30 flex items-center justify-center text-[10px] font-medium text-secondary" type="button">11</button>
+<button class="w-6 h-5.5 rounded-t-sm bg-surface-container-high hover:bg-secondary-container transition-colors ring-1 ring-outline/30 flex items-center justify-center text-[10px] font-medium text-secondary" type="button">12</button>
+<button class="w-6 h-5.5 rounded-t-sm bg-surface-container-high hover:bg-secondary-container transition-colors ring-1 ring-outline/30 flex items-center justify-center text-[10px] font-medium text-secondary" type="button">13</button>
+<button class="w-6 h-5.5 rounded-t-sm bg-surface-container-high hover:bg-secondary-container transition-colors ring-1 ring-outline/30 flex items-center justify-center text-[10px] font-medium text-secondary" type="button">14</button>
+</div>
+<span class="w-6 text-center font-label-md text-label-md text-on-surface-variant font-bold">C</span>
+</div>
+<!-- ROW D -->
+<div class="flex items-center gap-space-sm mb-space-sm">
+<span class="w-6 text-center font-label-md text-label-md text-on-surface-variant font-bold">D</span>
+<div class="flex items-center gap-1.5">
+<button class="w-6 h-5.5 rounded-t-sm bg-surface-container-high hover:bg-secondary-container transition-colors ring-1 ring-outline/30 flex items-center justify-center text-[10px] font-medium text-secondary" type="button">1</button>
+<button class="w-6 h-5.5 rounded-t-sm bg-surface-container-high hover:bg-secondary-container transition-colors ring-1 ring-outline/30 flex items-center justify-center text-[10px] font-medium text-secondary" type="button">2</button>
+<button class="w-6 h-5.5 rounded-t-sm bg-surface-container-high hover:bg-secondary-container transition-colors ring-1 ring-outline/30 flex items-center justify-center text-[10px] font-medium text-secondary" type="button">3</button>
+<button class="w-6 h-5.5 rounded-t-sm bg-surface-container-high hover:bg-secondary-container transition-colors ring-1 ring-outline/30 flex items-center justify-center text-[10px] font-medium text-secondary" type="button">4</button>
+</div>
+<div class="w-6"></div>
+<div class="flex items-center gap-1.5">
+<button class="w-6 h-5.5 rounded-t-sm bg-surface-container-high hover:bg-secondary-container transition-colors ring-1 ring-outline/30 flex items-center justify-center text-[10px] font-medium text-secondary" type="button">5</button>
+<button class="w-6 h-5.5 rounded-t-sm bg-surface-container-high hover:bg-secondary-container transition-colors ring-1 ring-outline/30 flex items-center justify-center text-[10px] font-medium text-secondary" type="button">6</button>
+<button class="w-6 h-5.5 rounded-t-sm bg-surface-container-high hover:bg-secondary-container transition-colors ring-1 ring-outline/30 flex items-center justify-center text-[10px] font-medium text-secondary" type="button">7</button>
+<button class="w-6 h-5.5 rounded-t-sm bg-surface-container-high hover:bg-secondary-container transition-colors ring-1 ring-outline/30 flex items-center justify-center text-[10px] font-medium text-secondary" type="button">8</button>
+<button class="w-6 h-5.5 rounded-t-sm bg-surface-container-high hover:bg-secondary-container transition-colors ring-1 ring-outline/30 flex items-center justify-center text-[10px] font-medium text-secondary" type="button">9</button>
+<button class="w-6 h-5.5 rounded-t-sm bg-surface-container-high hover:bg-secondary-container transition-colors ring-1 ring-outline/30 flex items-center justify-center text-[10px] font-medium text-secondary" type="button">10</button>
+</div>
+<div class="w-6"></div>
+<div class="flex items-center gap-1.5">
+<button class="w-6 h-5.5 rounded-t-sm bg-surface-container-high hover:bg-secondary-container transition-colors ring-1 ring-outline/30 flex items-center justify-center text-[10px] font-medium text-secondary" type="button">11</button>
+<button class="w-6 h-5.5 rounded-t-sm bg-surface-container-high hover:bg-secondary-container transition-colors ring-1 ring-outline/30 flex items-center justify-center text-[10px] font-medium text-secondary" type="button">12</button>
+<button class="w-6 h-5.5 rounded-t-sm bg-surface-container-high hover:bg-secondary-container transition-colors ring-1 ring-outline/30 flex items-center justify-center text-[10px] font-medium text-secondary" type="button">13</button>
+<button class="w-6 h-5.5 rounded-t-sm bg-surface-container-high hover:bg-secondary-container transition-colors ring-1 ring-outline/30 flex items-center justify-center text-[10px] font-medium text-secondary" type="button">14</button>
+</div>
+<span class="w-6 text-center font-label-md text-label-md text-on-surface-variant font-bold">D</span>
+</div>
+<!-- PRIME VIEW ZONE INDICATOR -->
+<div class="w-full max-w-[620px] flex items-center justify-center gap-2 py-1 px-3 rounded-full bg-primary/10">
+<span class="w-2 h-2 rounded-full bg-primary animate-ping"></span>
+<span class="font-overline text-overline uppercase tracking-widest text-primary font-bold">KHU VỰC VIP PRIME SEATING • GÓC NHÌN TRUNG TÂM HOÀN HẢO</span>
+</div>
+<!-- Rows E to H: VIP Seats (150.000đ) -->
+<!-- ROW E -->
+<div class="flex items-center gap-space-sm mt-space-xs">
+<span class="w-6 text-center font-label-md text-label-md text-primary font-bold">E</span>
+<div class="flex items-center gap-1.5">
+<button class="w-6 h-5.5 rounded-t-sm bg-secondary-container/90 ring-1 ring-primary/40 flex items-center justify-center text-[10px] font-semibold text-on-surface" type="button">1</button>
+<button class="w-6 h-5.5 rounded-t-sm bg-secondary-container/90 ring-1 ring-primary/40 flex items-center justify-center text-[10px] font-semibold text-on-surface" type="button">2</button>
+<button class="w-6 h-5.5 rounded-t-sm bg-secondary-container/90 ring-1 ring-primary/40 flex items-center justify-center text-[10px] font-semibold text-on-surface" type="button">3</button>
+<button class="w-6 h-5.5 rounded-t-sm bg-secondary-container/90 ring-1 ring-primary/40 flex items-center justify-center text-[10px] font-semibold text-on-surface" type="button">4</button>
+</div>
+<div class="w-6"></div>
+<div class="flex items-center gap-1.5">
+<button class="w-6 h-5.5 rounded-t-sm bg-surface-container-highest text-outline flex items-center justify-center opacity-60 cursor-not-allowed" type="button"><span class="material-symbols-outlined text-[11px]">close</span></button>
+<button class="w-6 h-5.5 rounded-t-sm bg-surface-container-highest text-outline flex items-center justify-center opacity-60 cursor-not-allowed" type="button"><span class="material-symbols-outlined text-[11px]">close</span></button>
+<button class="w-6 h-5.5 rounded-t-sm bg-secondary-container/90 ring-1 ring-primary/40 flex items-center justify-center text-[10px] font-semibold text-on-surface" type="button">7</button>
+<button class="w-6 h-5.5 rounded-t-sm bg-secondary-container/90 ring-1 ring-primary/40 flex items-center justify-center text-[10px] font-semibold text-on-surface" type="button">8</button>
+<button class="w-6 h-5.5 rounded-t-sm bg-secondary-container/90 ring-1 ring-primary/40 flex items-center justify-center text-[10px] font-semibold text-on-surface" type="button">9</button>
+<button class="w-6 h-5.5 rounded-t-sm bg-secondary-container/90 ring-1 ring-primary/40 flex items-center justify-center text-[10px] font-semibold text-on-surface" type="button">10</button>
+</div>
+<div class="w-6"></div>
+<div class="flex items-center gap-1.5">
+<button class="w-6 h-5.5 rounded-t-sm bg-secondary-container/90 ring-1 ring-primary/40 flex items-center justify-center text-[10px] font-semibold text-on-surface" type="button">11</button>
+<button class="w-6 h-5.5 rounded-t-sm bg-secondary-container/90 ring-1 ring-primary/40 flex items-center justify-center text-[10px] font-semibold text-on-surface" type="button">12</button>
+<button class="w-6 h-5.5 rounded-t-sm bg-secondary-container/90 ring-1 ring-primary/40 flex items-center justify-center text-[10px] font-semibold text-on-surface" type="button">13</button>
+<button class="w-6 h-5.5 rounded-t-sm bg-secondary-container/90 ring-1 ring-primary/40 flex items-center justify-center text-[10px] font-semibold text-on-surface" type="button">14</button>
+</div>
+<span class="w-6 text-center font-label-md text-label-md text-primary font-bold">E</span>
+</div>
+<!-- ROW F (With Selected Seats F07 & F08, and Temporary Hold F05, F06) -->
+<div class="flex items-center gap-space-sm">
+<span class="w-6 text-center font-label-md text-label-md text-primary font-bold">F</span>
+<div class="flex items-center gap-1.5">
+<button class="w-6 h-5.5 rounded-t-sm bg-secondary-container/90 ring-1 ring-primary/40 flex items-center justify-center text-[10px] font-semibold text-on-surface" type="button">1</button>
+<button class="w-6 h-5.5 rounded-t-sm bg-secondary-container/90 ring-1 ring-primary/40 flex items-center justify-center text-[10px] font-semibold text-on-surface" type="button">2</button>
+<button class="w-6 h-5.5 rounded-t-sm bg-secondary-container/90 ring-1 ring-primary/40 flex items-center justify-center text-[10px] font-semibold text-on-surface" type="button">3</button>
+<button class="w-6 h-5.5 rounded-t-sm bg-secondary-container/90 ring-1 ring-primary/40 flex items-center justify-center text-[10px] font-semibold text-on-surface" type="button">4</button>
+</div>
+<div class="w-6"></div>
+<div class="flex items-center gap-1.5">
+<!-- F05 & F06: Temporary hold by other user -->
+<div class="w-6 h-5.5 rounded-t-sm bg-surface-container-high ring-1 ring-dashed ring-tertiary flex items-center justify-center text-tertiary cursor-not-allowed" title="F05: Khách khác đang giữ chỗ">
+<span class="material-symbols-outlined text-[10px]">hourglass_top</span>
+</div>
+<div class="w-6 h-5.5 rounded-t-sm bg-surface-container-high ring-1 ring-dashed ring-tertiary flex items-center justify-center text-tertiary cursor-not-allowed" title="F06: Khách khác đang giữ chỗ">
+<span class="material-symbols-outlined text-[10px]">hourglass_bottom</span>
+</div>
+<!-- F07 & F08: Currently Selected by You -->
+<button class="w-6 h-5.5 rounded-t-sm bg-primary text-on-primary font-bold flex items-center justify-center shadow-[0_0_12px_rgba(247,201,109,0.8)] ring-2 ring-primary-fixed transform scale-105 transition-all" title="F07 (Đang chọn)" type="button">
+<span class="material-symbols-outlined text-[12px] font-bold">check</span>
+</button>
+<button class="w-6 h-5.5 rounded-t-sm bg-primary text-on-primary font-bold flex items-center justify-center shadow-[0_0_12px_rgba(247,201,109,0.8)] ring-2 ring-primary-fixed transform scale-105 transition-all" title="F08 (Đang chọn)" type="button">
+<span class="material-symbols-outlined text-[12px] font-bold">check</span>
+</button>
+<button class="w-6 h-5.5 rounded-t-sm bg-secondary-container/90 ring-1 ring-primary/40 flex items-center justify-center text-[10px] font-semibold text-on-surface" type="button">9</button>
+<button class="w-6 h-5.5 rounded-t-sm bg-secondary-container/90 ring-1 ring-primary/40 flex items-center justify-center text-[10px] font-semibold text-on-surface" type="button">10</button>
+</div>
+<div class="w-6"></div>
+<div class="flex items-center gap-1.5">
+<button class="w-6 h-5.5 rounded-t-sm bg-secondary-container/90 ring-1 ring-primary/40 flex items-center justify-center text-[10px] font-semibold text-on-surface" type="button">11</button>
+<button class="w-6 h-5.5 rounded-t-sm bg-secondary-container/90 ring-1 ring-primary/40 flex items-center justify-center text-[10px] font-semibold text-on-surface" type="button">12</button>
+<button class="w-6 h-5.5 rounded-t-sm bg-secondary-container/90 ring-1 ring-primary/40 flex items-center justify-center text-[10px] font-semibold text-on-surface" type="button">13</button>
+<button class="w-6 h-5.5 rounded-t-sm bg-secondary-container/90 ring-1 ring-primary/40 flex items-center justify-center text-[10px] font-semibold text-on-surface" type="button">14</button>
+</div>
+<span class="w-6 text-center font-label-md text-label-md text-primary font-bold">F</span>
+</div>
+<!-- ROW G -->
+<div class="flex items-center gap-space-sm">
+<span class="w-6 text-center font-label-md text-label-md text-primary font-bold">G</span>
+<div class="flex items-center gap-1.5">
+<button class="w-6 h-5.5 rounded-t-sm bg-secondary-container/90 ring-1 ring-primary/40 flex items-center justify-center text-[10px] font-semibold text-on-surface" type="button">1</button>
+<button class="w-6 h-5.5 rounded-t-sm bg-secondary-container/90 ring-1 ring-primary/40 flex items-center justify-center text-[10px] font-semibold text-on-surface" type="button">2</button>
+<button class="w-6 h-5.5 rounded-t-sm bg-secondary-container/90 ring-1 ring-primary/40 flex items-center justify-center text-[10px] font-semibold text-on-surface" type="button">3</button>
+<button class="w-6 h-5.5 rounded-t-sm bg-secondary-container/90 ring-1 ring-primary/40 flex items-center justify-center text-[10px] font-semibold text-on-surface" type="button">4</button>
+</div>
+<div class="w-6"></div>
+<div class="flex items-center gap-1.5">
+<button class="w-6 h-5.5 rounded-t-sm bg-surface-container-highest text-outline flex items-center justify-center opacity-60 cursor-not-allowed" type="button"><span class="material-symbols-outlined text-[11px]">close</span></button>
+<button class="w-6 h-5.5 rounded-t-sm bg-surface-container-highest text-outline flex items-center justify-center opacity-60 cursor-not-allowed" type="button"><span class="material-symbols-outlined text-[11px]">close</span></button>
+<button class="w-6 h-5.5 rounded-t-sm bg-surface-container-highest text-outline flex items-center justify-center opacity-60 cursor-not-allowed" type="button"><span class="material-symbols-outlined text-[11px]">close</span></button>
+<button class="w-6 h-5.5 rounded-t-sm bg-surface-container-highest text-outline flex items-center justify-center opacity-60 cursor-not-allowed" type="button"><span class="material-symbols-outlined text-[11px]">close</span></button>
+<button class="w-6 h-5.5 rounded-t-sm bg-secondary-container/90 ring-1 ring-primary/40 flex items-center justify-center text-[10px] font-semibold text-on-surface" type="button">9</button>
+<button class="w-6 h-5.5 rounded-t-sm bg-secondary-container/90 ring-1 ring-primary/40 flex items-center justify-center text-[10px] font-semibold text-on-surface" type="button">10</button>
+</div>
+<div class="w-6"></div>
+<div class="flex items-center gap-1.5">
+<button class="w-6 h-5.5 rounded-t-sm bg-secondary-container/90 ring-1 ring-primary/40 flex items-center justify-center text-[10px] font-semibold text-on-surface" type="button">11</button>
+<button class="w-6 h-5.5 rounded-t-sm bg-secondary-container/90 ring-1 ring-primary/40 flex items-center justify-center text-[10px] font-semibold text-on-surface" type="button">12</button>
+<button class="w-6 h-5.5 rounded-t-sm bg-secondary-container/90 ring-1 ring-primary/40 flex items-center justify-center text-[10px] font-semibold text-on-surface" type="button">13</button>
+<button class="w-6 h-5.5 rounded-t-sm bg-secondary-container/90 ring-1 ring-primary/40 flex items-center justify-center text-[10px] font-semibold text-on-surface" type="button">14</button>
+</div>
+<span class="w-6 text-center font-label-md text-label-md text-primary font-bold">G</span>
+</div>
+<!-- ROW H -->
+<div class="flex items-center gap-space-sm mb-space-sm">
+<span class="w-6 text-center font-label-md text-label-md text-primary font-bold">H</span>
+<div class="flex items-center gap-1.5">
+<button class="w-6 h-5.5 rounded-t-sm bg-secondary-container/90 ring-1 ring-primary/40 flex items-center justify-center text-[10px] font-semibold text-on-surface" type="button">1</button>
+<button class="w-6 h-5.5 rounded-t-sm bg-secondary-container/90 ring-1 ring-primary/40 flex items-center justify-center text-[10px] font-semibold text-on-surface" type="button">2</button>
+<button class="w-6 h-5.5 rounded-t-sm bg-secondary-container/90 ring-1 ring-primary/40 flex items-center justify-center text-[10px] font-semibold text-on-surface" type="button">3</button>
+<button class="w-6 h-5.5 rounded-t-sm bg-secondary-container/90 ring-1 ring-primary/40 flex items-center justify-center text-[10px] font-semibold text-on-surface" type="button">4</button>
+</div>
+<div class="w-6"></div>
+<div class="flex items-center gap-1.5">
+<button class="w-6 h-5.5 rounded-t-sm bg-secondary-container/90 ring-1 ring-primary/40 flex items-center justify-center text-[10px] font-semibold text-on-surface" type="button">5</button>
+<button class="w-6 h-5.5 rounded-t-sm bg-secondary-container/90 ring-1 ring-primary/40 flex items-center justify-center text-[10px] font-semibold text-on-surface" type="button">6</button>
+<button class="w-6 h-5.5 rounded-t-sm bg-secondary-container/90 ring-1 ring-primary/40 flex items-center justify-center text-[10px] font-semibold text-on-surface" type="button">7</button>
+<button class="w-6 h-5.5 rounded-t-sm bg-secondary-container/90 ring-1 ring-primary/40 flex items-center justify-center text-[10px] font-semibold text-on-surface" type="button">8</button>
+<button class="w-6 h-5.5 rounded-t-sm bg-secondary-container/90 ring-1 ring-primary/40 flex items-center justify-center text-[10px] font-semibold text-on-surface" type="button">9</button>
+<button class="w-6 h-5.5 rounded-t-sm bg-secondary-container/90 ring-1 ring-primary/40 flex items-center justify-center text-[10px] font-semibold text-on-surface" type="button">10</button>
+</div>
+<div class="w-6"></div>
+<div class="flex items-center gap-1.5">
+<button class="w-6 h-5.5 rounded-t-sm bg-secondary-container/90 ring-1 ring-primary/40 flex items-center justify-center text-[10px] font-semibold text-on-surface" type="button">11</button>
+<button class="w-6 h-5.5 rounded-t-sm bg-secondary-container/90 ring-1 ring-primary/40 flex items-center justify-center text-[10px] font-semibold text-on-surface" type="button">12</button>
+<button class="w-6 h-5.5 rounded-t-sm bg-secondary-container/90 ring-1 ring-primary/40 flex items-center justify-center text-[10px] font-semibold text-on-surface" type="button">13</button>
+<button class="w-6 h-5.5 rounded-t-sm bg-secondary-container/90 ring-1 ring-primary/40 flex items-center justify-center text-[10px] font-semibold text-on-surface" type="button">14</button>
+</div>
+<span class="w-6 text-center font-label-md text-label-md text-primary font-bold">H</span>
+</div>
+<!-- Extra space for luxury Sweetbox section -->
+<div class="w-full flex items-center gap-space-md my-1 opacity-40">
+<div class="flex-1 h-px bg-outline-variant"></div>
+<span class="font-overline text-overline uppercase text-tertiary tracking-widest">HÀNG GHẾ ĐÔI CAO CẤP SWEETBOX</span>
+<div class="flex-1 h-px bg-outline-variant"></div>
+</div>
+<!-- ROW J: Sweetbox Dual Loungers (280.000đ/cặp) -->
+<div class="flex items-center gap-space-sm">
+<span class="w-6 text-center font-label-md text-label-md text-tertiary font-bold">J</span>
+<div class="flex items-center gap-3">
+<!-- Sweetbox J01-02 -->
+<button class="w-14 h-6 rounded-full bg-error-container/70 ring-1 ring-primary/60 flex items-center justify-center gap-1.5 px-2 hover:bg-error-container transition-all group" title="Sweetbox J01-02 (280.000đ)" type="button">
+<span class="material-symbols-outlined text-primary text-[12px] group-hover:scale-110">favorite</span>
+<span class="text-[10px] font-semibold text-on-surface">01-02</span>
+</button>
+<!-- Sweetbox J03-04 -->
+<button class="w-14 h-6 rounded-full bg-error-container/70 ring-1 ring-primary/60 flex items-center justify-center gap-1.5 px-2 hover:bg-error-container transition-all group" title="Sweetbox J03-04 (280.000đ)" type="button">
+<span class="material-symbols-outlined text-primary text-[12px] group-hover:scale-110">favorite</span>
+<span class="text-[10px] font-semibold text-on-surface">03-04</span>
+</button>
+<!-- Sweetbox J05-06 (Sold) -->
+<div class="w-14 h-6 rounded-full bg-surface-container-highest text-outline flex items-center justify-center gap-1 px-2 opacity-60 cursor-not-allowed" title="Sweetbox J05-06 (Đã bán)">
+<span class="material-symbols-outlined text-[12px]">lock</span>
+<span class="text-[10px]">05-06</span>
+</div>
+<!-- Sweetbox J07-08 -->
+<button class="w-14 h-6 rounded-full bg-error-container/70 ring-1 ring-primary/60 flex items-center justify-center gap-1.5 px-2 hover:bg-error-container transition-all group" title="Sweetbox J07-08 (280.000đ)" type="button">
+<span class="material-symbols-outlined text-primary text-[12px] group-hover:scale-110">favorite</span>
+<span class="text-[10px] font-semibold text-on-surface">07-08</span>
+</button>
+<!-- Sweetbox J09-10 -->
+<button class="w-14 h-6 rounded-full bg-error-container/70 ring-1 ring-primary/60 flex items-center justify-center gap-1.5 px-2 hover:bg-error-container transition-all group" title="Sweetbox J09-10 (280.000đ)" type="button">
+<span class="material-symbols-outlined text-primary text-[12px] group-hover:scale-110">favorite</span>
+<span class="text-[10px] font-semibold text-on-surface">09-10</span>
+</button>
+</div>
+<span class="w-6 text-center font-label-md text-label-md text-tertiary font-bold">J</span>
+</div>
+</div>
+</div>
+<!-- Auditorium Tech Amenities Badge Bar -->
+<div class="grid grid-cols-1 sm:grid-cols-3 gap-space-sm pt-space-sm bg-surface-container/60 p-space-sm rounded-lg text-secondary">
+<div class="flex items-center gap-space-xs">
+<span class="material-symbols-outlined text-primary text-[20px]">videocam</span>
+<span class="font-body-sm text-body-sm">Máy chiếu kép Laser IMAX 4K sắc nét</span>
+</div>
+<div class="flex items-center gap-space-xs">
+<span class="material-symbols-outlined text-primary text-[20px]">airline_seat_recline_extra</span>
+<span class="font-body-sm text-body-sm">Ghế da bọc nệm chuẩn thương gia ngả 135°</span>
+</div>
+<div class="flex items-center gap-space-xs">
+<span class="material-symbols-outlined text-primary text-[20px]">room_service</span>
+<span class="font-body-sm text-body-sm">Phục vụ đồ uống tận ghế xem phim</span>
+</div>
+</div>
+</div>
+<!-- Right Column: Sticky Booking Summary & Checkout Panel (Approx 30% / col-span-4) -->
+<div class="xl:col-span-4 flex flex-col gap-space-md xl:sticky xl:top-24">
+<!-- Main Booking Card -->
+<div class="flex flex-col bg-surface-container rounded-xl shadow-2xl p-space-lg relative overflow-hidden ring-1 ring-primary/20">
+<!-- Decorative Golden Corner Accent -->
+<div class="absolute -top-12 -right-12 w-28 h-28 bg-primary/15 rounded-full blur-2xl pointer-events-none"></div>
+<!-- Movie Poster & Metadata Block -->
+<div class="flex gap-space-md pb-space-md">
+<div class="w-24 h-36 rounded-lg overflow-hidden shrink-0 shadow-lg relative bg-surface-container-high">
+<img alt="Dune: Hành Tinh Cát - Phần Hai Poster" class="w-full h-full object-cover" data-alt="Dune Part Two cinematic dramatic movie poster featuring Timothee Chalamet and Zendaya in golden desert sand with glowing blue eyes, luxury movie presentation lighting with deep shadows and golden rim backlight" src="https://lh3.googleusercontent.com/aida-public/AB6AXuDAffA52YmMjETj7uFX3w3YMA26COKIypiIitT3jsr11V7hTCu79LBHdizDi7zkiYD4_uJk3rTA0spZ2ElazosEfLh5_uzTXx9RMqWEuJd42zjtbLLBc6xcQMqv1YyKey-plMdj8t1Q445RcPUwJBcH45N1WNw4mHPyPf1WrmpYc7SkUVN0ooCgcV_VZLP17W9GQ4VC9_3n5c62EkTOZFlVZnpLK7Wz_OVg3nR4exEDdTyDtrl_gjrn"/>
+<span class="absolute top-1 left-1 px-1.5 py-0.5 rounded bg-surface/90 font-overline text-overline font-bold text-primary">T16</span>
+</div>
+<div class="flex flex-col justify-between">
+<div>
+<div class="flex items-center gap-space-xs mb-1">
+<span class="px-2 py-0.5 rounded-full bg-primary-container text-on-primary-container font-label-sm text-label-sm font-bold">IMAX 2D</span>
+<span class="font-caption text-caption text-secondary">Phụ đề</span>
+</div>
+<h3 class="font-headline-sm text-headline-sm text-on-surface font-bold leading-tight">Dune: Hành Tinh Cát - Phần Hai</h3>
+<p class="font-caption text-caption text-on-surface-variant mt-1">Hành động, Phiêu lưu, Khoa học viễn tưởng • 166 phút</p>
+</div>
+<div class="flex items-center gap-space-xs text-primary font-label-sm text-label-sm font-semibold">
+<span class="material-symbols-outlined text-[16px]">schedule</span>
+<span>19:30, T7 26/10/2024</span>
+</div>
+</div>
+</div>
+<!-- Cinema & Hall details chips -->
+<div class="flex flex-col gap-1 py-space-sm bg-surface-container-high/60 px-space-md rounded-lg">
+<div class="flex justify-between items-center text-on-surface-variant font-caption text-caption">
+<span>Cụm rạp:</span>
+<span class="text-on-surface font-medium">NOVA Landmark 81</span>
+</div>
+<div class="flex justify-between items-center text-on-surface-variant font-caption text-caption">
+<span>Phòng chiếu:</span>
+<span class="text-primary font-semibold">Phòng IMAX 01 (Màn hình 22m)</span>
+</div>
+</div>
+<!-- Selected Seats Badges (SRS Specified: F07, F08) -->
+<div class="flex flex-col gap-space-xs py-space-sm">
+<div class="flex justify-between items-center">
+<span class="font-label-md text-label-md text-on-surface font-semibold">Ghế đã chọn (2):</span>
+<span class="font-caption text-caption text-secondary">Hàng VIP Prime</span>
+</div>
+<div class="grid grid-cols-2 gap-space-xs">
+<!-- Seat 1 -->
+<div class="flex items-center justify-between p-2 rounded-lg bg-secondary-container/50 ring-1 ring-primary/40">
+<div class="flex items-center gap-1.5">
+<span class="material-symbols-outlined text-primary text-[18px]">airline_seat_recline_normal</span>
+<div>
+<p class="font-label-md text-label-md font-bold text-primary leading-tight">Ghế F07</p>
+<p class="font-caption text-[11px] text-secondary">VIP Gold</p>
+</div>
+</div>
+<span class="font-label-sm text-label-sm text-on-surface font-semibold">150.000đ</span>
+</div>
+<!-- Seat 2 -->
+<div class="flex items-center justify-between p-2 rounded-lg bg-secondary-container/50 ring-1 ring-primary/40">
+<div class="flex items-center gap-1.5">
+<span class="material-symbols-outlined text-primary text-[18px]">airline_seat_recline_normal</span>
+<div>
+<p class="font-label-md text-label-md font-bold text-primary leading-tight">Ghế F08</p>
+<p class="font-caption text-[11px] text-secondary">VIP Gold</p>
+</div>
+</div>
+<span class="font-label-sm text-label-sm text-on-surface font-semibold">150.000đ</span>
+</div>
+</div>
+</div>
+<!-- Recommended Concession Upsell (Combo Gold Cinema) -->
+<div class="p-space-sm rounded-xl bg-surface-container-high/80 flex flex-col gap-space-xs my-space-xs">
+<div class="flex items-center justify-between">
+<span class="font-label-sm text-label-sm uppercase tracking-wider text-primary font-bold flex items-center gap-1">
+<span class="material-symbols-outlined text-[16px]">local_activity</span>
+                  Ưu đãi combo bắp nước
+                </span>
+<span class="font-caption text-[11px] px-1.5 py-0.2 rounded bg-primary/20 text-primary">Tiết kiệm 20%</span>
+</div>
+<div class="flex items-center justify-between gap-space-sm pt-1">
+<div class="w-12 h-12 rounded-lg bg-surface-container-lowest shrink-0 overflow-hidden">
+<img alt="Combo Gold Cinema" class="w-full h-full object-cover" data-alt="Luxury cinema golden buttery popcorn tub with two premium branded cold drinks on dark navy background with dramatic studio lighting" src="https://lh3.googleusercontent.com/aida-public/AB6AXuAvsOb0714S5pktJLFinrCbGNArnzLcUy1n48Nw9dW8JFCqgJGLmbbYURU_tWqdP6U_uU5Owvx9CFom-WnjCLGW-Ns1lM8zi2GNNgj1Z1zJMFlXBgo3bwaR1J0sMxGoGJxdMhok-CBv5crHepVIPE1qZBHSwLifeClsGTEWQrsGtwQVtOHGT69vCdbrTj7pr6pyTKjyyOaEQAuk_pohGS7sXADtLCq15yqD6M18Q2nNYLYCgaGTu_2C"/>
+</div>
+<div class="flex-1 min-w-0">
+<p class="font-label-md text-label-md font-semibold text-on-surface truncate">Combo Gold Cinema</p>
+<p class="font-caption text-caption text-on-surface-variant truncate">1 Bắp caramel lớn + 2 Nước ngọt</p>
+</div>
+<div class="flex flex-col items-end">
+<span class="font-label-sm text-label-sm text-primary font-bold">+95.000đ</span>
+<span class="flex items-center text-primary text-[12px] font-medium">
+<span class="material-symbols-outlined text-[16px]">check_circle</span>
+                    Đã thêm
+                  </span>
+</div>
+</div>
+</div>
+<!-- Voucher Promo Input Section -->
+<div class="flex flex-col gap-space-xs py-space-xs">
+<label class="font-label-sm text-label-sm text-on-surface-variant" for="voucher-input">Mã giảm giá / Voucher ưu đãi</label>
+<div class="flex gap-space-xs">
+<div class="relative flex-1">
+<input class="w-full bg-surface-container-lowest text-on-surface font-label-md text-label-md px-3 py-2 rounded-lg focus:outline-none ring-1 ring-primary/50 uppercase tracking-wider" id="voucher-input" readonly="" type="text" value="NOVAVIP10"/>
+<span class="material-symbols-outlined text-primary text-[18px] absolute right-3 top-2.5">verified</span>
+</div>
+<button class="px-4 py-2 rounded-lg bg-surface-container-highest text-secondary hover:text-on-surface font-label-md text-label-md transition-colors" type="button">
+                  Đã áp dụng
+                </button>
+</div>
+<p class="font-caption text-[12px] text-primary flex items-center gap-1">
+<span class="material-symbols-outlined text-[14px]">sell</span>
+                Mã VIP: Đã kích hoạt giảm 30.000đ cho đơn hàng
+              </p>
+</div>
+<!-- Price Breakdown Calculation -->
+<div class="flex flex-col gap-1.5 pt-space-sm mt-space-xs">
+<div class="flex justify-between items-center font-body-sm text-body-sm text-on-surface-variant">
+<span>Tiền vé (2 ghế VIP × 150k):</span>
+<span class="text-on-surface font-medium">300.000đ</span>
+</div>
+<div class="flex justify-between items-center font-body-sm text-body-sm text-on-surface-variant">
+<span>Combo bắp nước (Gold):</span>
+<span class="text-on-surface font-medium">95.000đ</span>
+</div>
+<div class="flex justify-between items-center font-body-sm text-body-sm text-secondary">
+<span>Ưu đãi thành viên Gold (-10%):</span>
+<span class="text-primary font-medium">-30.000đ</span>
+</div>
+<!-- Total Amount Callout -->
+<div class="flex justify-between items-baseline pt-space-sm mt-space-xs bg-surface-container-high/80 p-space-md rounded-xl">
+<div class="flex flex-col">
+<span class="font-overline text-overline uppercase tracking-wider text-secondary">TỔNG CỘNG THANH TOÁN</span>
+<span class="font-caption text-[11px] text-on-surface-variant">Đã bao gồm VAT &amp; Phí tiện ích</span>
+</div>
+<div class="flex flex-col items-end">
+<span class="font-headline-lg text-headline-lg font-bold text-primary tracking-tight">365.000 <span class="text-headline-sm font-headline-sm">VNĐ</span></span>
+</div>
+</div>
+</div>
+<!-- Primary Glowing CTA Checkout Button -->
+<a class="w-full mt-space-md py-3.5 px-space-md rounded-xl bg-primary hover:bg-primary-fixed text-on-primary font-headline-sm text-headline-sm font-bold flex items-center justify-center gap-space-sm shadow-[0_0_24px_rgba(247,201,109,0.4)] hover:shadow-[0_0_32px_rgba(247,201,109,0.6)] transform active:scale-[0.99] transition-all" data-path="thanh-toan" href="#">
+<span>Tiến hành thanh toán</span>
+<span class="material-symbols-outlined text-[20px]">arrow_forward</span>
+</a>
+<!-- Anti-double-booking & SRS Security Compliance -->
+<div class="flex items-center justify-center gap-space-xs text-secondary mt-space-sm">
+<span class="material-symbols-outlined text-[16px] text-primary">security</span>
+<span class="font-caption text-[12px] text-on-surface-variant">Khóa ghế thời gian thực theo chuẩn bảo mật SRS ISO-27001</span>
+</div>
+</div>
+<!-- Customer Service Fast Contact -->
+<div class="flex items-center justify-between p-space-sm bg-surface-container-low rounded-lg text-on-surface-variant">
+<div class="flex items-center gap-space-xs">
+<span class="material-symbols-outlined text-primary text-[18px]">support_agent</span>
+<span class="font-body-sm text-body-sm">Cần hỗ trợ chọn ghế đoàn / VIP?</span>
+</div>
+<a class="font-label-md text-label-md text-primary hover:underline font-semibold" href="#">1900 6868</a>
+</div>
+</div>
+</div>
+</div>
+</div>
+</div>
+<script>
+  // Countdown Timer Logic (08:45 -> 00:00)
+  (function initTimer() {
+    let duration = 8 * 60 + 45; // 8 minutes 45 seconds
+    const display = document.getElementById('seat-timer');
+    if (!display) return;
+
+    const interval = setInterval(() => {
+      const minutes = Math.floor(duration / 60);
+      const seconds = duration % 60;
+
+      const formattedMinutes = minutes < 10 ? '0' + minutes : minutes;
+      const formattedSeconds = seconds < 10 ? '0' + seconds : seconds;
+
+      display.textContent = formattedMinutes + ':' + formattedSeconds;
+
+      if (--duration < 0) {
+        clearInterval(interval);
+        display.textContent = '00:00';
+        alert('Thời gian giữ ghế đã hết hạn. Hệ thống sẽ tự động làm mới sơ đồ ghế!');
+        window.location.reload();
+      }
+    }, 1000);
+  })();
+</script></main><footer class="w-full bg-surface-container-lowest text-on-surface-variant"><div class="w-full px-margin-lg py-space-xl"><div class="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-4 gap-gutter-lg pb-space-xl"><div class="flex flex-col gap-space-md"><div class="flex items-center gap-space-sm"><img alt="NOVA CINEMA Logo" class="h-8 w-auto object-contain" src="https://lh3.googleusercontent.com/aida/AEtjO1WHiBk6pJ_Wx_sgRvTQn63py5rEeDSRkg8qwocy93KnfiT5x4Ls_xm2rm13PqlLeIdtnZWIVMP4QqG590As3LNjbNUomgGBewuD77MXyHbQLCDSXW11DEWP_0uEePcUNZj-zt8U_zazOC7cMLPGFUSAdNR4oR9HO_xwiZHdOJ8uvlqZ16dWggE7RLlk6-1qvE900vGBWfX-Kwww-ArI0AJe3MDyD0IIY7fy6XEg_w_tI_feDAh9_9RwJx8"/><span class="font-headline-sm text-headline-sm uppercase tracking-wider text-primary">NOVA CINEMA</span></div><p class="font-body-sm text-body-sm text-on-surface-variant leading-relaxed">Đẳng cấp điện ảnh thượng lưu. Tận hưởng không gian trình chiếu IMAX Laser, Dolby Atmos chuẩn quốc tế cùng đặc quyền ẩm thực VIP Lounge thượng hạng.</p><div class="flex items-center gap-space-sm text-primary"><span class="material-symbols-outlined text-[20px]">verified</span><span class="font-label-sm text-label-sm tracking-wide text-on-surface">Chứng nhận tiêu chuẩn rạp VIP 2025</span></div></div><div class="flex flex-col gap-space-md"><span class="font-label-md text-label-md uppercase tracking-wider text-on-surface font-semibold">Khám phá &amp; Điều khoản</span><div class="flex flex-col gap-space-sm"><a class="font-body-sm text-body-sm text-on-surface-variant hover:text-primary transition-colors" data-path="gioi-thieu" href="#">Về chúng tôi</a><a class="font-body-sm text-body-sm text-on-surface-variant hover:text-primary transition-colors" data-path="gia-ve-uu-dai" href="#">Quy định thành viên VIP</a><a class="font-body-sm text-body-sm text-on-surface-variant hover:text-primary transition-colors" data-path="chinh-sach-bao-mat" href="#">Chính sách bảo mật</a><a class="font-body-sm text-body-sm text-on-surface-variant hover:text-primary transition-colors" data-path="dieu-khoan-dich-vu" href="#">Điều khoản dịch vụ</a></div></div><div class="flex flex-col gap-space-md"><span class="font-label-md text-label-md uppercase tracking-wider text-on-surface font-semibold">Hệ thống cụm rạp NOVA</span><div class="flex flex-col gap-space-sm font-body-sm text-body-sm"><div class="flex flex-col"><span class="text-on-surface font-medium">NOVA Landmark 81</span><span class="text-caption font-caption text-on-surface-variant">Tầng B1, TTTM Vincom Landmark 81, TP. HCM</span></div><div class="flex flex-col"><span class="text-on-surface font-medium">NOVA Westlake</span><span class="text-caption font-caption text-on-surface-variant">Tầng 4, Lotte Mall West Lake, Tây Hồ, Hà Nội</span></div><div class="flex flex-col"><span class="text-on-surface font-medium">NOVA Vincom Bà Triệu</span><span class="text-caption font-caption text-on-surface-variant">Tầng 6, Tháp B, 191 Bà Triệu, Hai Bà Trưng, Hà Nội</span></div></div></div><div class="flex flex-col gap-space-md"><span class="font-label-md text-label-md uppercase tracking-wider text-on-surface font-semibold">Liên hệ &amp; Hỗ trợ</span><div class="flex flex-col gap-space-sm font-body-sm text-body-sm"><div class="flex items-center gap-space-sm"><span class="material-symbols-outlined text-primary text-[20px]">call</span><div class="flex flex-col"><span class="text-caption font-caption text-on-surface-variant">Hotline Chăm sóc VIP (24/7)</span><span class="text-on-surface font-semibold text-headline-sm font-headline-sm text-primary">1900 6868</span></div></div><div class="flex items-center gap-space-sm"><span class="material-symbols-outlined text-primary text-[20px]">mail</span><span class="text-on-surface-variant">contact@novacinema.vn</span></div><div class="flex items-center gap-space-sm"><span class="material-symbols-outlined text-primary text-[20px]">schedule</span><span class="text-on-surface-variant">08:00 - 24:00 hàng ngày</span></div></div></div></div><div class="pt-space-lg flex flex-col md:flex-row items-center justify-between gap-space-md"><span class="font-caption text-caption text-on-surface-variant">© 2025 NOVA CINEMA JSC. All rights reserved. Trải nghiệm điện ảnh chuẩn Hoàng gia.</span><div class="flex items-center gap-space-md"><span class="font-label-sm text-label-sm text-on-surface-variant">Thanh toán an toàn:</span><div class="flex items-center gap-space-xs text-secondary"><span class="material-symbols-outlined text-[20px]">credit_card</span><span class="material-symbols-outlined text-[20px]">account_balance_wallet</span><span class="material-symbols-outlined text-[20px]">qr_code_2</span></div></div></div></div></footer></body></html>

@@ -1,0 +1,253 @@
+---
+name: Nova Cinema Luxury Experience
+colors:
+  surface: '#00142a'
+  surface-dim: '#00142a'
+  surface-bright: '#243a55'
+  surface-container-lowest: '#000f21'
+  surface-container-low: '#031c36'
+  surface-container: '#07203a'
+  surface-container-high: '#142b45'
+  surface-container-highest: '#203650'
+  on-surface: '#d3e4ff'
+  on-surface-variant: '#d1c5b2'
+  inverse-surface: '#d3e4ff'
+  inverse-on-surface: '#1b314c'
+  outline: '#9a8f7e'
+  outline-variant: '#4e4637'
+  surface-tint: '#edc065'
+  primary: '#f7c96d'
+  on-primary: '#402d00'
+  primary-container: '#d9ae55'
+  on-primary-container: '#5b4200'
+  inverse-primary: '#7a5900'
+  secondary: '#aec9eb'
+  on-secondary: '#15324e'
+  secondary-container: '#304b68'
+  on-secondary-container: '#a0bbdd'
+  tertiary: '#e7cc9d'
+  on-tertiary: '#3e2e0c'
+  tertiary-container: '#cab183'
+  on-tertiary-container: '#55431f'
+  error: '#ffb4ab'
+  on-error: '#690005'
+  error-container: '#93000a'
+  on-error-container: '#ffdad6'
+  primary-fixed: '#ffdea2'
+  primary-fixed-dim: '#edc065'
+  on-primary-fixed: '#261900'
+  on-primary-fixed-variant: '#5c4200'
+  secondary-fixed: '#d1e4ff'
+  secondary-fixed-dim: '#aec9eb'
+  on-secondary-fixed: '#001d35'
+  on-secondary-fixed-variant: '#2e4965'
+  tertiary-fixed: '#fbdfae'
+  tertiary-fixed-dim: '#dec394'
+  on-tertiary-fixed: '#261900'
+  on-tertiary-fixed-variant: '#564420'
+  background: '#00142a'
+  on-background: '#d3e4ff'
+  surface-variant: '#203650'
+typography:
+  headline-xl:
+    fontFamily: Be Vietnam Pro
+    fontSize: 44px
+    fontWeight: '700'
+    lineHeight: 52px
+    letterSpacing: -0.02em
+  headline-xl-mobile:
+    fontFamily: Be Vietnam Pro
+    fontSize: 32px
+    fontWeight: '700'
+    lineHeight: 40px
+    letterSpacing: -0.015em
+  headline-lg:
+    fontFamily: Be Vietnam Pro
+    fontSize: 32px
+    fontWeight: '700'
+    lineHeight: 40px
+    letterSpacing: -0.015em
+  headline-lg-mobile:
+    fontFamily: Be Vietnam Pro
+    fontSize: 26px
+    fontWeight: '700'
+    lineHeight: 34px
+    letterSpacing: -0.01em
+  headline-md:
+    fontFamily: Be Vietnam Pro
+    fontSize: 22px
+    fontWeight: '600'
+    lineHeight: 30px
+    letterSpacing: -0.01em
+  headline-sm:
+    fontFamily: Be Vietnam Pro
+    fontSize: 18px
+    fontWeight: '600'
+    lineHeight: 26px
+    letterSpacing: 0em
+  body-lg:
+    fontFamily: Inter
+    fontSize: 16px
+    fontWeight: '400'
+    lineHeight: 24px
+    letterSpacing: 0em
+  body-md:
+    fontFamily: Inter
+    fontSize: 15px
+    fontWeight: '400'
+    lineHeight: 22px
+    letterSpacing: 0em
+  body-sm:
+    fontFamily: Inter
+    fontSize: 14px
+    fontWeight: '400'
+    lineHeight: 20px
+    letterSpacing: 0em
+  label-md:
+    fontFamily: Be Vietnam Pro
+    fontSize: 14px
+    fontWeight: '600'
+    lineHeight: 18px
+    letterSpacing: 0.02em
+  label-sm:
+    fontFamily: Be Vietnam Pro
+    fontSize: 12px
+    fontWeight: '500'
+    lineHeight: 16px
+    letterSpacing: 0.03em
+  caption:
+    fontFamily: Inter
+    fontSize: 13px
+    fontWeight: '400'
+    lineHeight: 18px
+    letterSpacing: 0.01em
+  overline:
+    fontFamily: Be Vietnam Pro
+    fontSize: 11px
+    fontWeight: '700'
+    lineHeight: 14px
+    letterSpacing: 0.08em
+rounded:
+  sm: 0.25rem
+  DEFAULT: 0.5rem
+  md: 0.75rem
+  lg: 1rem
+  xl: 1.5rem
+  full: 9999px
+spacing:
+  gutter: 1.5rem
+  gutter-sm: 1rem
+  gutter-lg: 2rem
+  margin: 2rem
+  margin-sm: 1rem
+  margin-lg: 4rem
+  space-xs: 0.25rem
+  space-sm: 0.5rem
+  space-md: 1rem
+  space-lg: 1.5rem
+  space-xl: 2.5rem
+---
+
+## Brand & Style
+
+This design system defines an immersive, modern luxury digital experience for premium cinema ticketing and hospitality. It bridges the grand theatrical aura of heritage picture palaces with the frictionless precision of high-end concierge applications. 
+
+Targeted at cinephiles, premium format patrons (IMAX, Dolby Cinema, VIP lounges), and luxury leisure seekers, the interface evokes anticipation, refinement, and effortless opulence. 
+
+The aesthetic is characterized by:
+- **Cinematic Atmosphere:** Deep nocturnal midnight surfaces infused with golden light leak highlights, evoking theater projection beams cutting through darkness.
+- **Glass & Metallic Accents:** Restrained champagne gold borders, micro-gradients, and illuminated rim lights rather than flat fills.
+- **Polished Tactility:** Tactile seating maps, physical ticket pass metaphors, and floating elevated glass surfaces that make the booking experience feel like a premiere event.
+
+## Colors
+
+The palette is tuned specifically for pitch-dark and ambient theater environments, maintaining strict legibility while avoiding eye fatigue.
+
+### Core Roles
+- **Canvas Base (`#142B45`):** Midnight Blue acts as the deep floor canvas for full-screen viewports.
+- **Surfaces & Shelves (`#1C3854`):** Deep Ocean Blue forms the middle base for panels, navigation strips, and dialogs.
+- **Elevated Cards (`#243F59`):** Slate Blue elevates foreground interactive elements and booking sheets.
+- **Primary Accent (`#D9AE55`):** Champagne Gold commands primary actions, selected states, and active checkout flows.
+- **Interactive Light Gold (`#F0D394`):** Soft Gold serves as the focus and hover state for interactive surfaces.
+- **Restrained Accents (`#8E784F`):** Muted Gold supplies hairline borders (1px) and structural dividers.
+
+### Typographic Contrast
+- **Primary Type (`#FFF5DF`):** Ivory White provides warm, high-contrast readability without the harsh glare of pure white.
+- **Secondary Type (`#AFC2D4`):** Silver Blue reduces visual dominance for subtitles, metadata, showtime formats, and timestamps.
+- **Subtle Highlight (`#F8F5EC`):** Pearl White highlights active seat silhouettes, modal close icons, and badge counter pips.
+
+### Functional States
+- **Available / Standard Action (`#22C55E`):** Success Green confirms payment authorization and accessible showtimes.
+- **VIP Distinction (`#EAB308`):** Alert Gold flags premiere tiers, prime lounge recliners, and limited access screenings.
+- **Unavailable / Booked (`#EF4444`):** Danger Red communicates occupied seats, expired reservations, and sold-out theaters.
+
+## Typography
+
+The type system blends the contemporary, geometric flair of **Be Vietnam Pro** for theatrical titles, screen headers, and seat identifiers with the ultra-legible, systematic clarity of **Inter** for dense transactional schedules, pricing, and ticket specifications.
+
+- **Uppercase Overlines:** Use `overline` with `letterSpacing: 0.08em` in Champagne Gold (`#D9AE55`) for screening formats (e.g., `IMAX 3D`, `DOLBY ATMOS`, `DIRECTOR'S CUT`).
+- **Showtime Matrices:** Grid schedules use `label-md` with tabular numerical figures to keep times aligned vertically.
+- **Seat Legends:** Seat coordinates (e.g., `G14`, `VIP-02`) rely on `Be Vietnam Pro` in Semibold to preserve distinct character silhouettes at small sizes in dimly lit conditions.
+
+## Layout & Spacing
+
+The layout operates on an 8pt base grid with a fluid 12-column responsive layout for desktop/admin dashboards, an 8-column layout for tablets, and a 4-column layout for mobile booking flows.
+
+- **Desktop (min-width: 1280px):** 12-column structure with `margin-lg` (64px) and `gutter-lg` (32px). Cinema detail layouts split 7:5 (featured billboard preview vs. showtime booking matrix).
+- **Tablet (768px – 1279px):** 8-column structure with `margin` (32px) and `gutter` (24px). Seat layouts implement horizontal panning with sticky row identifiers.
+- **Mobile (< 768px):** 4-column structure with `margin-sm` (16px) and `gutter-sm` (16px). Checkout switches to full-width stacked sheets anchored by a sticky bottom confirmation drawer.
+- **Visual Rhythm:** Poster grids and seat matrices preserve square and 2:3 architectural ratios. Gaps between related seating units use `space-xs` (4px), while separate seat categories (e.g., VIP vs. Sweetbox) step out to `space-md` (16px).
+
+## Elevation & Depth
+
+Depth mimics the atmospheric lighting of a luxury theater auditorium using semi-translucent surfaces, selective golden ambient backlights, and hairline metallic rims.
+
+- **Level 0 (Auditorium Base):** `#142B45` flat background. No shadow.
+- **Level 1 (Structural Modules / Trays):** `#1C3854` with a 1px border of `rgba(142, 120, 79, 0.25)`. Shadow: `0 8px 24px rgba(6, 15, 25, 0.45)`.
+- **Level 2 (Interactive Cards / Seat Maps):** `#243F59` with a 1px border of `rgba(217, 174, 85, 0.20)`. Shadow: `0 12px 32px rgba(4, 10, 18, 0.60)`.
+- **Level 3 (Modals, Ticket Passes, Floating Drawers):** `#1C3854` layered with `backdrop-filter: blur(16px)` and subtle linear border gradients transitioning from `rgba(240, 211, 148, 0.4)` at the top edge to `rgba(142, 120, 79, 0.1)` at the bottom edge. Shadow: `0 24px 48px rgba(0, 0, 0, 0.75), 0 0 24px rgba(217, 174, 85, 0.12)`.
+- **Screen Radiance Glow:** Top of the interactive seating map features an arched SVG screen emitter using an elliptical gradient from `rgba(217, 174, 85, 0.35)` dissolving into `transparent` over 120px.
+
+## Shapes
+
+The design uses balanced, modern curves (`roundedness: 2`, base 8px). Radii scale up purposefully for larger touch surfaces and card containers:
+
+- **Buttons, Show-format Badges, Inputs:** `0.5rem` (8px) for precise, architectural geometry.
+- **Standard Movie Cards & Dialog Panes:** `1rem` (16px) for approachable luxury.
+- **VIP Loungers & Sweetbox Clusters:** Outer container curves use `1.5rem` (24px) to emphasize plush lounge seating.
+- **Digital Ticket Pass:** `1.5rem` (24px) corners accented by dual inward circular cutouts (`mask-radial-gradient`) on the ticket perforation boundary.
+- **Seat Icons:** Custom top-rounded geometry (top radius `4px`, bottom radius `1px`) mimicking physical theater headrests and cushions.
+
+## Components
+
+### Buttons
+- **Primary Golden CTA:** Solid fill of Champagne Gold (`#D9AE55`) with text in Canvas Base (`#142B45`, font-weight 700). Hover state shifts to Soft Gold (`#F0D394`) with a soft glow `0 0 16px rgba(217, 174, 85, 0.45)`.
+- **Secondary Ghost:** Transparent fill, 1px border in Muted Gold (`#8E784F`), text in Ivory White (`#FFF5DF`). Hover state fills background with `rgba(217, 174, 85, 0.1)`.
+- **Showtime Pill:** `#243F59` base with Silver Blue typography. On active/focus: switches to Champagne Gold border and text, with a subtle top rim glow.
+
+### Movie Cards
+- **Structure:** 2:3 aspect ratio portrait poster with a gradient scrim (`linear-gradient(180deg, transparent 40%, #142B45 95%)`).
+- **Badges:** Age rating (`P-13`, `18+`) positioned top-left using dark glass pill (`backdrop-filter: blur(8px)`) with Ivory White text; format pill (`IMAX`, `4DX`) positioned top-right in Alert Gold.
+- **Footer Overlay:** Card hover lifts 4px, revealing title in Ivory White, duration/genre in Silver Blue, and a full-width Champagne Gold "Book Seats" button.
+
+### Interactive Seating Map
+- **Standard Seat:** Top-curved rectangle (24x22px). Default: `#243F59` border with `#1C3854` fill.
+- **VIP Seat:** Distinct wider profile (28x22px) bordered with Alert Gold (`#EAB308`), featuring a stitched-cushion graphic divider.
+- **Sweetbox (Couple Lounger):** Seamless double-width unit (58x22px) enclosed in a curved capsule border with dual-pillow indicators.
+- **Seat States:**
+  - *Available:* Slate Blue with Silver Blue hover highlight.
+  - *Selected:* Solid Champagne Gold fill with Ivory White identifier tick.
+  - *Booked/Occupied:* Subdued `#1A2837` fill with diagonal crosshair slash or filled with subtle Danger Red (`#EF4444`) slash at 30% opacity.
+
+### Booking Summary Sticky Bar
+- **Desktop/Mobile Dock:** Anchored to viewport bottom. Background: `#1C3854` with 80% opacity and `backdrop-filter: blur(20px)`.
+- **Content:** Left side displays movie thumbnail, hall name, selected seats chips, and total price formatted in Ivory White (`headline-md`). Right side displays primary "Proceed to Payment" CTA button.
+
+### Ticket Pass (QR Pass)
+- **Top Segment:** Movie key art, theater name, screen room number, date, and showtime in Ivory White and Champagne Gold.
+- **Perforation Line:** Dashed stroke in Muted Gold (`#8E784F`) terminated at left and right boundaries by concave 16px circular cutouts.
+- **Bottom Segment:** High-contrast square QR code container encased in Pearl White (`#F8F5EC`) with rounded corners, booking ID, and wallet export links.
+
+### Admin Dashboard Modules
+- **Metric Cards:** `#243F59` surfaces featuring occupancy percentages, daily revenue in Ivory White bold numerals, with trend chips in Success Green (`#22C55E`).
+- **Screen Schedule Timeline:** Horizontal multi-track Gantt chart showing movie runs per auditorium, with buffer gaps styled in dashed Muted Gold.

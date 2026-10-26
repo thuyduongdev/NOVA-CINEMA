@@ -1,0 +1,6 @@
+{
+  "name": "NOVA CINEMA - Luxury Experience",
+  "description": "Nền tảng đặt vé xem phim và quản lý rạp chiếu chuẩn xa xỉ NOVA CINEMA với sơ đồ ghế tương tác, thanh toán thời gian thực và hệ thống điều hành rạp chuyên nghiệp.",
+  "requestFramePermissions": [],
+  "majorCapabilities": ["MAJOR_CAPABILITY_SERVER_SIDE_GEMINI_API"]
+}
